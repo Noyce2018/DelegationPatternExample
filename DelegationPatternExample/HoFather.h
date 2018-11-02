@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "BuildFactory.h"
 #import "PowerCompany.h"
-//福爹，实现造发电厂
+//福爹，实现造发电厂,遵循建造发电厂协议，做能源公司的委托人
 @interface HoFather :NSObject <BuildFactory>
 -(void)buildFactory:(float)money:(NSString*)info;
 -(void)work;
