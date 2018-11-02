@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    HoFather *h=[[HoFather alloc]init];
+    [h work];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

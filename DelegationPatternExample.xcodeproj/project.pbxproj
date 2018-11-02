@@ -15,6 +15,8 @@
 		5E430126218BE3F40075B79B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E430125218BE3F40075B79B /* main.m */; };
 		5E430130218BE3F40075B79B /* DelegationPatternExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E43012F218BE3F40075B79B /* DelegationPatternExampleTests.m */; };
 		5E43013B218BE3F40075B79B /* DelegationPatternExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E43013A218BE3F40075B79B /* DelegationPatternExampleUITests.m */; };
+		5E5A8DE9218BF531006DDA24 /* HoFather.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A8DE8218BF531006DDA24 /* HoFather.m */; };
+		5E5A8DEC218BF54A006DDA24 /* PowerCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A8DEB218BF54A006DDA24 /* PowerCompany.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,12 @@
 		5E430136218BE3F40075B79B /* DelegationPatternExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegationPatternExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E43013A218BE3F40075B79B /* DelegationPatternExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegationPatternExampleUITests.m; sourceTree = "<group>"; };
 		5E43013C218BE3F40075B79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5A8DE6218BF50A006DDA24 /* BuildFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuildFactory.h; sourceTree = "<group>"; };
+		5E5A8DE7218BF523006DDA24 /* HoFather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoFather.h; sourceTree = "<group>"; };
+		5E5A8DE8218BF531006DDA24 /* HoFather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoFather.m; sourceTree = "<group>"; };
+		5E5A8DEA218BF53A006DDA24 /* powerCompany.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = powerCompany.h; sourceTree = "<group>"; };
+		5E5A8DEB218BF54A006DDA24 /* PowerCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerCompany.m; sourceTree = "<group>"; };
+		5E5A8DED218BF562006DDA24 /* BuildFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BuildFactory.h; path = "../../../知识积累/testStrong/testStrong/BuildFactory.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,12 @@
 		5E430115218BE3F30075B79B /* DelegationPatternExample */ = {
 			isa = PBXGroup;
 			children = (
+				5E5A8DED218BF562006DDA24 /* BuildFactory.h */,
+				5E5A8DEB218BF54A006DDA24 /* PowerCompany.m */,
+				5E5A8DEA218BF53A006DDA24 /* powerCompany.h */,
+				5E5A8DE8218BF531006DDA24 /* HoFather.m */,
+				5E5A8DE7218BF523006DDA24 /* HoFather.h */,
+				5E5A8DE6218BF50A006DDA24 /* BuildFactory.h */,
 				5E430116218BE3F30075B79B /* AppDelegate.h */,
 				5E430117218BE3F30075B79B /* AppDelegate.m */,
 				5E430119218BE3F30075B79B /* ViewController.h */,
@@ -264,7 +278,9 @@
 			files = (
 				5E43011B218BE3F30075B79B /* ViewController.m in Sources */,
 				5E430126218BE3F40075B79B /* main.m in Sources */,
+				5E5A8DE9218BF531006DDA24 /* HoFather.m in Sources */,
 				5E430118218BE3F30075B79B /* AppDelegate.m in Sources */,
+				5E5A8DEC218BF54A006DDA24 /* PowerCompany.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
