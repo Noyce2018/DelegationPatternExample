@@ -11,5 +11,5 @@
 //能源公司
 @interface PowerCompany :NSObject
 @property id <BuildFactory> delegate;//委托人
--(void)work;//工作
+-(void)work;                         //工作
 @end

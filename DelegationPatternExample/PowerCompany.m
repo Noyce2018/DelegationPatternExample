@@ -8,6 +8,7 @@
 
 #import "PowerCompany.h"
 @implementation PowerCompany
+//能源公司的实现，即委托委托人工作
 -(void)work
 {
     [self.delegate buildFactory:1000000 :@"build"];
