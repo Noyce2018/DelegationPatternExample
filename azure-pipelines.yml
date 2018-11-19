@@ -15,3 +15,4 @@ steps:
     configuration: 'Release'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
+    sign:'/Users/tianyan_appteam_tbl/Library/MobileDevice/Provisioning\ Profiles/d4db3620-8932-4c02-95d6-513a382ae74a.mobileprovision'
