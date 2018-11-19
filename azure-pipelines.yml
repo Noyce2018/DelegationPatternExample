@@ -1,3 +1,25 @@
+# Install Apple Certificate
+# Install an Apple certificate required to build on a macOS agent
+- task: InstallAppleCertificate@2
+  inputs:
+    certSecureFile: 
+    #certPwd: # Optional
+    #keychain: 'temp' # Options: default, temp, custom
+    #keychainPassword: # Required when keychain == Custom || Keychain == Default
+    #customKeychainPath: # Required when keychain == Custom
+    #deleteCert: # Optional
+    #deleteCustomKeychain: # Optional
+    #signingIdentity: # Optional
+
+
+
+
+
+
+
+
+
+
 # Xcode
 # Build, test, and archive an Xcode workspace on macOS.
 # Add steps that install certificates, test, sign, and distribute an app, save build artifacts, and more:
@@ -15,4 +37,4 @@ steps:
     configuration: 'Release'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
-    sign:'/Users/tianyan_appteam_tbl/Library/MobileDevice/Provisioning\ Profiles/d4db3620-8932-4c02-95d6-513a382ae74a.mobileprovision'
+    
