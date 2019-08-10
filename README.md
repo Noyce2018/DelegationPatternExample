@@ -1,5 +1,5 @@
 # DelegationPatternExample
-解释设计模式中委托模式的示例程序，开发语言为Objectiva-C语言
+解释设计模式中委托模式的示例程序，开发语言为Objectiva-C
 
 
 为了通俗的解释这一概念，我们借助美剧《基本演绎法》中的一个角色来进行说明：
